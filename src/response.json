@@ -1,0 +1,70 @@
+[
+  {
+    "disable_validation": true,
+    "first_name": "Adam",
+    "last_name": "Kowalski",
+    "country": "PL",
+    "street": "Akacjowa",
+    "city": "Kiełczów",
+    "postal_code": "55-093",
+    "house_number": "59G",
+    "birth_date": "20240529",
+    "date_of_marriage": "20240517",
+    "date_of_divorce": "",
+    "iban": "PL71291000060000000004332283",
+    "bic": "BPKOPLPW",
+    "year": "2023",
+    "spouses": {
+      "first_name": "Danka",
+      "last_name": "Holecka",
+      "street": "Urbinowa-Żona",
+      "city": "Wrocław",
+      "postal_code": "55-333",
+      "house_number": "23",
+      "country": "PL",
+      "birth_date": "19220221"
+    },
+    "children": [
+      {
+        "first_name": "Adam",
+        "last_name": "Kowalski",
+        "birth_date": "20010515",
+        "lived_whole_year": 1,
+        "residence": {
+          "address": "CośtamStrasse 25 50-111 Wrocław",
+          "country": "PL",
+          "residence_period": { "lower": "20200101", "upper": "20201231" }
+        }
+      },
+      {
+        "first_name": "Skoti",
+        "last_name": "Pipen",
+        "birth_date": "20240501",
+        "lived_whole_year": 1,
+        "residence": {
+          "address": "HitlepStrasse 66 51-156 Wrocław",
+          "country": "DE",
+          "residence_period": { "lower": "20200101", "upper": "20201231" }
+        }
+      }
+    ],
+    "deductions": {
+      "double_household": [
+        {
+          "household_postal_code": "55-333",
+          "household_city": "Wrocław",
+          "household_country": "PL",
+          "household_date_from": "20200101",
+          "residence_at_place_of_employment_postal_code": "52-214",
+          "residence_at_place_of_employment_city": "Berlin",
+          "period_of_residence_at_place_of_employment": {
+            "lower": "20200101",
+            "upper": "20201231"
+          },
+          "residence_at_place_of_employment_costs": "0"
+        }
+      ],
+      "other_costs": { "bank_costs": [{ "amount": "16" }] }
+    }
+  }
+]
