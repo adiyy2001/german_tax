@@ -18,7 +18,7 @@
     "@types/axios": "^0.14.0",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
-    "axios": "^1.7.2",
+    "axios": "^1.20.0",
     "dotenv": "^16.4.5",
     "playwright": "^1.45.1",
     "puppeteer": "^22.12.1",
